@@ -63,11 +63,12 @@
 .header__menu-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 9px;
   list-style: none;
 }
 
 .header__menu-link {
+  display: block;
   color: #fff;
   text-underline-offset: 4px;
 }
@@ -86,8 +87,8 @@
   line-height: 72px;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-position: 110% 100%;
+  background-size: 95%;
 }
 
 .text-center {
@@ -143,7 +144,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-inline-start: 10px;
+  padding-inline-start: 15px;
 }
 
 .content-section__list-accent {
@@ -183,7 +184,7 @@
 
 .card__author-photo {
   height: 100px;
-  margin-block-end: 8px;
+  margin-block-end: 2px;
 }
 
 .card__title {
@@ -205,6 +206,7 @@
   display: flex;
   gap: 16px;
   list-style: none;
+  font-size: 14px;
 }
 
 .footer__link {
