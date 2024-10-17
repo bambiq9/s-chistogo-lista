@@ -56,6 +56,14 @@
   padding-block: 24px;
 }
 
+.header__logo {
+  align-self: flex-start;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+}
+
 .header__logo-image {
   inline-size: 78.45px;
 }
@@ -71,6 +79,10 @@
   display: block;
   color: #fff;
   text-underline-offset: 4px;
+}
+
+.header__menu-link:hover {
+  text-decoration: none;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -121,7 +133,7 @@
 }
 
 .intro__date {
-  word-wrap: break-word;
+  white-space: nowrap;
 }
 
 .reasons {
@@ -205,11 +217,16 @@
 .footer__links {
   display: flex;
   gap: 16px;
-  list-style: none;
   font-size: 14px;
+  list-style: none;
 }
 
 .footer__link {
   color: #fff;
   text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
